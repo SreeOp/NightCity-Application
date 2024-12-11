@@ -310,7 +310,7 @@ module.exports = async (client) => {
         var valueofwlid = data.id
 
         finishChannel.send({
-          content: `Whitelist Application From <@${interaction.user.id}> \n<@1307225215255707719>`,
+          content: `Whitelist Application From <@${interaction.user.id}> \n<@&1307225215255707719>`, 
           embeds: [
             new EmbedBuilder()
               .setAuthor({ name: `${process.env.ServerName} | Server Application Log`, iconURL: process.env.ServerLogo })
