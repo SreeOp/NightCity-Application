@@ -32,7 +32,7 @@ module.exports = async (client) => {
                 .setTitle(`NIGHTCITY APPLICATIONS`)
                 .setAuthor({ name: `${process.env.ServerName} | Server Application`, iconURL: process.env.ServerLogo })
                 .setColor("#b100cd")
-                .setThumbnail("https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/123444d_43EFIfH9Q-.webp")
+                .setThumbnail("https://i.ibb.co/Nmhr5jb/nrp1.png")
                 .setImage('https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/DR3P1234j_TqGJUBxWjy.webp')
                 .setFooter({ text: "NRP" ? `${process.env.ServerName}` : `${process.env.ServerName}` })
                 .setTimestamp(new Date())
