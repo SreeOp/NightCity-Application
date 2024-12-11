@@ -214,7 +214,7 @@ module.exports = async (client) => {
           .addFields([
             {
               name: '\n\u200b\nServer Name ',
-              value: `\`\`\`DHRUVAM\`\`\``,
+              value: `\`\`\`NIGHTCITY\`\`\``,
               inline: false
             },
             {
@@ -235,8 +235,8 @@ module.exports = async (client) => {
 
         try {
           await ap_user.roles.add(process.env.PendingRole).catch(e => { })
-          pendingchannel.send({ content: `<@${ap_user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝘼𝙋𝙋𝙇𝙄𝘾𝘼𝙏𝙄𝙊𝙉 𝙃𝘼𝙎  𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙑𝙄𝙎𝙄𝙏 <#1000400547897163796> 𝙏𝙊 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙀 𝙏𝙃𝙀 𝙋𝙍𝙊𝘾𝙀𝘿𝙐𝙍𝙀.`, embeds: [pendingEmbed] });
-          ap_user.send({ content: `<@${ap_user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝘼𝙋𝙋𝙇𝙄𝘾𝘼𝙏𝙄𝙊𝙉 𝙃𝘼𝙎  𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙑𝙄𝙎𝙄𝙏 <#1000400547897163796> 𝙏𝙊 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙀 𝙏𝙃𝙀 𝙋𝙍𝙊𝘾𝙀𝘿𝙐𝙍𝙀.`, embeds: [pendingEmbed] });
+          pendingchannel.send({ content: `<@${ap_user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝘼𝙋𝙋𝙇𝙄𝘾𝘼𝙏𝙄𝙊𝙉 𝙃𝘼𝙎  𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙑𝙄𝙎𝙄𝙏 <#1316318559852429333> 𝙏𝙊 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙀 𝙏𝙃𝙀 𝙋𝙍𝙊𝘾𝙀𝘿𝙐𝙍𝙀.`, embeds: [pendingEmbed] });
+          ap_user.send({ content: `<@${ap_user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝘼𝙋𝙋𝙇𝙄𝘾𝘼𝙏𝙄𝙊𝙉 𝙃𝘼𝙎  𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙑𝙄𝙎𝙄𝙏 <#1316318559852429333> 𝙏𝙊 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙀 𝙏𝙃𝙀 𝙋𝙍𝙊𝘾𝙀𝘿𝙐𝙍𝙀.`, embeds: [pendingEmbed] });
         } catch (error) {
           if (error.code === 50007) {
             interaction.reply({
@@ -381,7 +381,7 @@ module.exports = async (client) => {
               .setThumbnail(process.env.ServerLogo)
               .setFooter({ text: "Test" ? `${process.env.ServerName}` : `${process.env.ServerName}` })
               .setTimestamp(new Date())
-              .setTitle(`DHRUVAM APPLICATIONS`)
+              .setTitle(`NIGHTCITY APPLICATIONS`)
               .addFields([
                 {
                   name: '\n\u200b\nMessage',
@@ -418,7 +418,7 @@ module.exports = async (client) => {
         );
 
         try {
-          ap_user.send(`Your DHRUVAM whitelist application has been rejected by ${interaction.user.tag}`)
+          ap_user.send(`Your NIGHTCITY whitelist application has been rejected by ${interaction.user.tag}`)
         } catch (error) {
           if (error.code === 50007) {
             interaction.reply({
@@ -439,12 +439,12 @@ module.exports = async (client) => {
 
         const rejectEmbed = new EmbedBuilder()
           .setColor("Red")
-          .setAuthor({ name: 'DHRUVAM', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
+          .setAuthor({ name: 'NIGHTCITY', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
           .setThumbnail(`${ap_user.user.avatarURL()}`)
           .addFields([
             {
               name: '\n\u200b\nServer Name ',
-              value: `\`\`\`DHRUVAM\`\`\``,
+              value: `\`\`\`NIGHTCITY\`\`\``,
               inline: false
             },
             {
