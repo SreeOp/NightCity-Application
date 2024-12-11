@@ -66,7 +66,7 @@ module.exports = async (client) => {
             .setColor("#00d0ff")
             .setAuthor({ name: 'NIGHTCITY', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
             .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))
-            .setImage('https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/34Untitled-1_MdzWv8Q4U.webp')
+            .setImage('https://i.ibb.co/fSVbZsw/nrp-2.png')
             .addFields([
               {
                 name: '\n\u200b\nServer Name ',
