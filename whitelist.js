@@ -64,13 +64,13 @@ module.exports = async (client) => {
 
           const acceptEmbed = new EmbedBuilder()
             .setColor("#00d0ff")
-            .setAuthor({ name: 'DHRUVAM', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
+            .setAuthor({ name: 'NIGHTCITY', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
             .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))
             .setImage('https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/34Untitled-1_MdzWv8Q4U.webp')
             .addFields([
               {
                 name: '\n\u200b\nServer Name ',
-                value: `\`\`\`DHRUVAM\`\`\``,
+                value: `\`\`\`NIGHTCITY\`\`\``,
                 inline: false
               },
               {
@@ -84,8 +84,8 @@ module.exports = async (client) => {
           try {
             await user.roles.add(process.env.WhiteListRole).catch(e => { console.log(e) })
             await user.roles.remove(process.env.PendingRole).catch(e => { console.log(e) })
-            acceptchannel.send({ content: `<@${user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙀𝙉𝙅𝙊𝙔 𝘿𝙃𝙍𝙐𝙑𝘼𝙈 𝙍𝙊𝙇𝙀𝙋𝙇𝘼𝙔.`, embeds: [acceptEmbed] });
-            await user.send({ content: `<@${user.user.id}>  𝙔𝙊𝙐𝙍 𝙑𝙄𝙎𝘼 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿. 𝙀𝙉𝙅𝙊𝙔 𝘿𝙃𝙍𝙐𝙑𝘼𝙈 𝙍𝙊𝙇𝙀𝙋𝙇𝘼𝙔.`, embeds: [acceptEmbed] })
+            acceptchannel.send({ content: `<@${user.user.id}>  𝙔𝙊𝙐𝙍 𝙒𝙃𝙄𝙏𝙀𝙇𝙄𝙎𝙏 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿 , 𝙀𝙉𝙅𝙊𝙔 𝙍𝙊𝙇𝙀𝙋𝙇𝘼𝙔.`, embeds: [acceptEmbed] });
+            await user.send({ content: `<@${user.user.id}>  𝙔𝙊𝙐𝙍 𝙒𝙃𝙄𝙏𝙀𝙇𝙄𝙎𝙏 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉 𝘼𝘾𝘾𝙀𝙋𝙏𝙀𝘿 , 𝙀𝙉𝙅𝙊𝙔 𝙍𝙊𝙇𝙀𝙋𝙇𝘼𝙔.`, embeds: [acceptEmbed] })
             interaction.editReply({
               content: `The message has been send on <#${process.env.AcceptChannel}>`,
               ephemeral: true,
