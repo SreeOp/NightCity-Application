@@ -1,18 +1,20 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "This is simple discord form bot that used to interact with your members. Created by Rage. If you have any doubt you can contact me in discord chaos_rage",
+  "description": "This is a simple Discord form bot that interacts with your members. Created by Rage. If you have any doubts, you can contact me on Discord: chaos_rage.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rage",
+  "author": "zyro",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.4",
     "colors": "^1.4.0",
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "pm2": "^5.4.2"
   }
 }
