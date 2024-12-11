@@ -229,7 +229,7 @@ module.exports = async (client) => {
             },
           ])
 
-          .setImage('https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/U4ntitled-1_Il7c7B_QV.webp')
+          .setImage('https://i.ibb.co/y4P9vpz/nrp-3.png')
           .setTimestamp()
           .setFooter({ text: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) });
 
