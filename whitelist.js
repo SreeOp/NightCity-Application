@@ -209,7 +209,7 @@ module.exports = async (client) => {
 
         const pendingEmbed = new EmbedBuilder()
           .setColor("Yellow")
-          .setAuthor({ name: 'DHRUVAM', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
+          .setAuthor({ name: 'NIGHTCITY', iconURL: client.user.displayAvatarURL({ dynamic: true }) })
           .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))
           .addFields([
             {
