@@ -109,7 +109,7 @@ module.exports = async (client) => {
           }
         } else {
           interaction.reply({
-            content: `You don't have the privilage to do this command contact <@813966990674493511> or other admins for more information`,
+            content: `You don't have the privilage to do this command contact <@1130550721834647622> or other admins for more information`,
             ephemeral: true,
           });
         }
@@ -310,7 +310,7 @@ module.exports = async (client) => {
         var valueofwlid = data.id
 
         finishChannel.send({
-          content: `Whitelist Application From <@${interaction.user.id}> \n<@&1048119915707650118> <@&1130791882558025728> <@&981442795229306912>`,
+          content: `Whitelist Application From <@${interaction.user.id}> \n<@1307225215255707719>`,
           embeds: [
             new EmbedBuilder()
               .setAuthor({ name: `${process.env.ServerName} | Server Application Log`, iconURL: process.env.ServerLogo })
@@ -458,7 +458,7 @@ module.exports = async (client) => {
               inline: true
             },
           ])
-          .setImage('https://ik.imagekit.io/yg4xrysan/RageGaming/Dhruvam/BOT/visa-declined.webp')
+          .setImage('https://i.ibb.co/jJLmD2t/nrp-4.png')
           .setTimestamp()
           .setFooter({ text: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) });
         rejectchannel.send({ content: `<@${ap_user.user.id}> 𝗬𝗢𝗨𝗥 𝗪𝗛𝗜𝗧𝗘𝗟𝗜𝗦𝗧 𝗪𝗔𝗦 𝗥𝗘𝗝𝗘𝗖𝗧𝗘𝗗..`, embeds: [rejectEmbed] });
